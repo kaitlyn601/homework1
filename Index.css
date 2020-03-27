@@ -1,0 +1,207 @@
+nav {
+  display: block;
+  background-color: #343a40;
+  padding: 4px 4px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav .logo img {
+  height: 90px;
+  width: 90px;
+}
+.links ul li {
+  display: inline;
+}
+.logo,
+.links {
+  display: inline-block;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 8px;
+}
+.nav-bar .links ul li a {
+  color: rgba(225, 225, 225, 0.5);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.nav-bar .links ul li .home {
+  color: #fff;
+}
+body {
+  margin: 0;
+}
+.nav-bar .links ul li {
+  margin-right: 20px;
+}
+.nav-bar .links ul li:last-of-type {
+  margin-right: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul li h3 {
+  font-size: 20px;
+}
+#video {
+  color: #e20d32;
+  font-size: 20px;
+  font: bold;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.title-container {
+  width: 100%;
+  text-align: center;
+}
+.title-container h1 {
+  font-size: 42px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1c1c1c;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.title-container h6 {
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+}
+.title-container h6 i {
+  display: inline;
+  font-size: 15px;
+}
+.review {
+  float: none;
+  max-width: none;
+  vertical-align: bottom;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.rating-stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating-stars img {
+  width: 160px;
+  height: 90px;
+}
+.recipe-info {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: FranklinGothicURW-Boo, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+.recipe-info ul {
+  border-color: #e0e0e0;
+  width: 100%;
+  list-style: none;
+  border-right: 1px solid #eee;
+}
+.recipe-info ul li {
+  margin-bottom: 10px;
+}
+.recipe-info ul li .recipeinfo-des {
+  font-family: FranklinGothicURW-Dem, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+.page-content {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 0px 80px;
+}
+.list {
+  width: 50%;
+}
+.list li h3 {
+  color: #343a40;
+}
+.instructions {
+  width: 50%;
+  line-height: 1.5;
+}
+.instructions li h3 {
+  color: #343a40;
+}
+.video-link {
+  text-align: center;
+}
+hr {
+  border: 0px;
+  border-top: 1px solid #eee;
+}
+.block-container {
+  background-color: #f5f5f5;
+  position: relative;
+}
+.block-container {
+  font-size: 20px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1c1c1c;
+  padding-left: 80px;
+}
+.grid-container {
+  height: 450px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 15px;
+}
+.block {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+}
+.block img {
+  height: 80%;
+  width: 100%;
+  cursor: pointer;
+}
+.block span {
+  font-size: 15px;
+}
+.head-title {
+  font-size: 48px;
+  color: #e20d32;
+  margin-bottom: 0;
+}
+.bottom-container {
+  padding-left: 40px;
+}
